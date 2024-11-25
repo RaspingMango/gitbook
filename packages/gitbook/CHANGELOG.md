@@ -1,5 +1,31 @@
 # gitbook
 
+## 0.5.0
+
+### Minor Changes
+
+-   ca134c8: Fix an issue where the active site section indicator appeared above any dropdowns.
+-   d48926e: Fix an issue where the space dropdown was shown under the site sections in Safari.
+-   d843e5e: Fix an issue where the space dropdown could appear behind the header.
+-   a2e5647: Fix the styling of site section tabs on smaller screens.
+
+### Patch Changes
+
+-   4d56f11: Update styling of search+ask modal
+-   061c0c1: Fix a regression in variant drop-down caused by missing z-index.
+-   07cf835: Add scroll margin to the top when there are sections
+-   5d72b35: Smoother tab transition for sections
+-   7c71363: Don't adjust fallback font for mono font.
+-   7675c2c: Optimize performances by using new API endpoint for fetching site data.
+-   1ed18c0: style: adds missing scalar css variables
+-   Updated dependencies [b7a5106]
+-   Updated dependencies [4771c78]
+-   Updated dependencies [ff50ac2]
+-   Updated dependencies [7ba67fd]
+-   Updated dependencies [a78c1ec]
+    -   @gitbook/cache-do@0.1.1
+    -   @gitbook/react-openapi@0.7.1
+
 ## 0.4.0
 
 ### Minor Changes
